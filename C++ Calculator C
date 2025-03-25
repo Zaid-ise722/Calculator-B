@@ -1,0 +1,15 @@
+#include <iostream>
+#include<string>
+using namespace std;
+int x = 5;
+
+int main() {
+
+int y = 90;  
+x = x + 2;
+cout << ::x<< endl;  
+
+cout << endl << ::x << endl;
+return 0;
+}
+//ئەو ::یە بەس لۆ سەر لئ شئوان داندرایە گەر نەش بی هەر هەمان ڕیزەڵتە چونکە ئەو :: لۆ ئەو کاتە بەکاردئ کە دوو ڤارئبلمان هەبی هەمان ڤاوڵیان هەبی
